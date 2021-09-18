@@ -1,0 +1,254 @@
+/*******************************         META         *******************************/
+
+html, body{   /* removes the white border around the containers */
+    margin:0;
+    padding:0;
+    }
+    
+
+
+/*******************************      FIRST block      *******************************/
+
+.first-block{
+    background-color: #1F2937;
+
+}
+
+                /*--------- Top half of FIRST block -----------*/
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:100px;
+    padding-top:16px;
+    padding-bottom: 16px;
+        /* color for header (picture and links)*/
+}
+
+
+.logo{ /* Left picture */
+    border-radius:50%;
+    width:80px;
+}
+                /*--------- right links of TOP header -----------*/
+.right-header{
+
+
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+ul{
+    list-style-type:none;
+    display:flex;
+    margin:0;
+    padding:0;
+    gap:16px;
+}
+                /*--------- BOTTOM half -----------*/
+.bottom-half{
+display:flex; /* makes both blocks line up horizontally, side-by-side*/
+gap:45px;
+padding:90px;
+justify-content: center;
+color:white; /* changed the font of the BOTTOM of the FIRST block to white */
+}
+
+                /*--------- BOTTOM LEFT -----------*/
+
+.bottom-left-header{
+display:flex;
+flex-direction:column;
+padding:5px;
+justify-content: center;
+width:500px;
+gap:10px;
+}
+
+.title{ 
+    font-size: 48px;
+    font-weight:bolder;
+}
+
+.subtext{
+font-size: 18px;
+}
+
+button{
+    border:none;
+    border-radius:8px;
+    background: #3882F6;
+    color:white;
+    font-size:18px;
+    padding: 8px 24px;
+    width:150px;
+}
+
+                /*--------- BOTTOM RIGHT  -----------*/
+
+.header-pic{
+width: 500px;
+height: 350px;
+
+    /* maybe resize pic to see how bottom-left block reacts */
+}
+
+/*******************************      SECOND block      *******************************/
+
+                /*--------- Title -----------*/
+.second-title{
+display:flex;
+font-size:36px;
+font-weight:bolder;
+justify-content: center;
+align-items: center;
+padding:30px;
+
+}
+                /*--------- Content -----------*/
+.second-block{
+
+    display:flex;
+    justify-content: center;
+    margin:20px;
+    margin-top:0;
+    gap:10px;
+    flex-wrap:wrap;
+}
+                /*--------- 1st block -----------*/
+.first-box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.second-pic{
+    width:200px;
+    height:200px;
+}
+
+.first-text{
+padding:10px;
+width:200px; /* text box is restricted into this size */
+text-align:center;
+
+
+}
+                /*--------- 2nd block -----------*/
+.second-box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* .second-pic{
+    width:300px;
+    height:auto;
+} */
+.second-text{
+    padding:10px;
+    text-align:center;
+    width:200px; /* text box is restricted into this size */
+
+    }
+                /*--------- 3rd block -----------*/ 
+.third-box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* .second-pic{
+    width:300px;
+    height:auto;
+} */
+.third-text{
+    padding:10px;
+    text-align:center;
+    width:200px; /* text box is restricted into this size */
+
+    }
+                /*--------- 4th block -----------*/  
+.fourth-box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* .second-pic{
+width:300px;
+height:auto;
+} */
+.fourth-text{
+    padding:10px;
+    text-align:center;
+    width:200px; /* text box is restricted into this size */
+}
+
+/*******************************      THIRD block      *******************************/
+.third-block{
+display:flex;
+flex-direction: column;
+background-color: #E5E7EB;
+padding: 0 200px;
+
+}
+
+p {
+    font-size:36px;
+    font-style:italic;
+    color:#1F2937;
+
+}
+
+b {
+display:flex;
+justify-content: flex-end;
+padding:20px;
+}
+
+/*******************************      FOURTH block      *******************************/
+.fourth-block{
+    padding:100px;
+}
+.fourth-container{
+    display:flex;
+    border:5px solid black;
+justify-content: center;
+    background-color: #3882F6;
+}
+
+.fourth-left{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    border:5px solid goldenrod;
+}
+
+.fourth-top{
+color:white;
+font-weight:bold;
+}
+
+.fourth-bottom{
+color:white;
+}
+
+.fourth-right{
+display:flex;
+justify-content: center;
+    margin:30px;
+border:1px solid white;
+border-radius: 10px;
+}
+
+/*******************************      Footer      *******************************/
+.footer{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    padding:16px;
+    height:30px;
+    background-color: #1F2947;
+    color:white;
+}
